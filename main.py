@@ -1,5 +1,9 @@
 import data
+import helpers
 class TestUrbanRoutes:
+    @classmethod
+    def setup_class(cls):
+        if helpers.is_url_reachable(data.URBAN_ROUTES_URL)
     def test_set_route(self):
         # Add in S8
         print("function created for set route")
