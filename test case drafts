@@ -1,0 +1,29 @@
+1. Setting the route
+    Visit the URL
+    Find the "From" field - locator
+    Select (or click) the "From" field
+    Type the address into the "From" field
+    Find the "To" field - locator
+    Select (or click) the "To" field
+    Type the address into the "To" field
+    Find the "Call a taxi" button
+    Click the "Call a taxi" button
+
+2. Select the supportive plan for car
+    Visit the URL*
+    set_route*
+        (pages.py)
+        find supportive plan option as locator
+        select the supportive plan
+    assert supportive plan (main.py)
+
+
+
+
+
+    Fill in phone number
+    Add credit card info
+    Write comment for driver
+    Order a blanket & hankerchiefs
+    Order 2 ice creams
+    Order taxi with supportive tariff
